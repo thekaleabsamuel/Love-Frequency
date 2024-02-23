@@ -1,0 +1,78 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.tenor.com/XaawAzlwjhkAAAAj/heart-hart.gif'); /* Background image URL */
+    background-repeat: repeat; /* Repeat the background image */
+}
+
+/* Header styles */
+header {
+    background-color: transparent; /* Remove background color */
+    color: #ffffff;
+    padding: 1%;
+    text-align: center; /* Center text horizontally */
+}
+
+/* Blog post image styles */
+.blog-post img {
+    max-width: 100%; /* Ensures images don't exceed their container's width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Blog post paragraph styles */
+.blog-post p {
+    color: #666;
+    text-align: center; /* Center text horizontally */
+    font-size: 18px; /* Set font size to 18 pixels */
+    line-height: 2; /* Set line height to double spacing */
+}
+
+/* Additional CSS to display images side by side */
+.blog-post a {
+    display: inline-block; /* Display images as inline blocks */
+    width: 45%; /* Set width to 45% to allow space for margins */
+    margin: 0 2.5%; /* Add margins to create space between images */
+    vertical-align: top; /* Align images to the top */
+    text-align: center; /* Center images horizontally */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center; /* Center text horizontally */
+    background-color: transparent; /* Remove background color */
+}
+
+/* Footer styles */
+footer {
+    background-color: transparent; /* Remove background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Blog post styles */
+.blog-post {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    text-align: center; /* Center text horizontally */
+    line-height: 2; /* Set line height to double spacing */
+}
+
+/* Blog post heading styles */
+.blog-post h1 {
+    color: #333;
+}
+
+/* Blog post paragraph styles */
+.blog-post p {
+    color: #666;
+    font-size: 18px; /* Set font size to 18 pixels */
+    line-height: 2; /* Set line height to double spacing */
+}
